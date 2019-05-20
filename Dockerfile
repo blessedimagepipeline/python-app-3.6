@@ -1,5 +1,4 @@
 FROM appsvcbuildacr.azurecr.io/python:3.6
-
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 COPY application.py /home/site/wwwroot/application.py
